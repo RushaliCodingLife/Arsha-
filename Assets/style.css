@@ -1,0 +1,225 @@
+.body{
+  background-color: rgba(40, 58, 90, 0.9);
+  /* height: 950px; */
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+ 
+
+
+   li {
+     list-style-type: none;
+     padding: 10px 20px;
+   }
+   
+   a {
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: white;
+     position: relative;
+   }
+   
+   ul li a:before {
+     content: "";
+     width: 0;
+     height: 5px;
+     background-color: #00bcd4;
+     position: absolute;
+     top: 120%;
+     left: 0;
+     transition: all 0.5s;
+   }
+   
+   ul li a:after {
+     content: "";
+     width: 0;
+     height: 5px;
+     background-color: #f0f;
+     position: absolute;
+     top: 120%;
+     right: 0;
+     transition: all 0.5s;
+   }
+   
+   ul li a:hover:before {
+     width: 50%;
+     transform: translateX(100%);
+   }
+   
+   ul li a:hover:after {
+     width: 50%;
+     transform: translateX(-100%);
+   }
+
+   .navbar-brand
+   {font-family: "Trirong", serif;
+  color: white;
+}
+
+   .heading
+   { 
+    font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 70px; 
+  padding-top: 160px;
+  display: flex;
+
+}
+
+.home-image{
+  margin-top: 30px;
+}
+
+.text{
+  font-size: 27px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button1 {
+  background-color: #3badee; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.button1 {border-radius: 40px;}
+
+.button1:hover{ 
+  background-color:#0c9af2 ;
+}
+
+
+.icons{
+  background-color: rgb(206, 200, 200);
+
+}
+
+
+.icon{
+  color: #47b2e4;
+}
+
+.btn-learn-more
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  line-height: 1;
+  color: #47b2e4;
+  margin-top: 6px;
+  border: 2px solid #47b2e4;
+  text-decoration: none;
+}
+
+.btn-learn-more:hover{
+  background-color: #00bcd4;
+  color: white;
+}
+
+.bg-image{
+  background-color: #f3f5fa; 
+  margin-top: 80px;
+}
+
+.text-1{
+  color: #37517e;
+  font-size: 30px;
+}
+
+.text-2{
+  color: #848484;
+  font-size: 15px;
+}
+
+.margin-container{
+  padding: 90px;
+}
+
+
+.head-accordion{
+font-weight: 600;
+}
+
+.head-accordion:hover{
+color:  #00bcd4;;
+}
+
+.accordion-body{
+  font-size: 15px;
+}
+
+.head
+{font-size: 42px;
+  padding-top: 80px;
+padding-bottom: 40px;
+position: relative;
+color: #37517e;
+}
+
+.fst-itallic{
+  font-size: 16.5px;
+  color: #848484;
+  font-style: italic!important;
+}
+
+.h2{
+  color: #37517e;
+}
+
+.progress-text{
+  color: #37517e;
+}
+
+.service-text
+{
+  font-size: medium;
+  color: #848484;
+}
+
+.card{
+  color: #37517e;
+}
+
+.card-text{
+  color: #848484;
+}
+
+.card{
+  transition: trasform 0.2s ease;
+  box-shadow: 02px 2px 0 black;
+  margin-bottom: 1.5em;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card-title:hover{
+  color: #00bbd4d9;
+}
+
+.service-color
+{
+  background-color:rgba(40, 58, 90, 0.9);
+  padding: 90px;
+}
+
+.service-button
+{
+  border-radius: 40px;
+border-color: white;
+color: white;
+
+}
